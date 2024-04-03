@@ -1,0 +1,6 @@
+{
+  "words": [],
+  "ignoreWords": ["kanae"],
+  "allowCompoundWords": true,
+  "ignorePaths": ["**/package-lock.json", "**/node_modules/**"]
+}
