@@ -21,7 +21,6 @@ export async function POST(request) {
           .setExpirationTime('1d')
           .sign(secretKey)
 
-        console.log(token)
         return NextResponse.json({ message: 'ログイン成功', token: token })
       } else {
         return NextResponse.json({ message: 'ログイン失敗：パスワードが間違っています' })
